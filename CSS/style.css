@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("../images/bg-intro-desktop.png");
+    color: #fff;
+font-size:  16px;
+margin: auto;
+text-align: center;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 1em 0;
+    max-width: 300px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+#main-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 5em auto;
+    max-width: 100%;
+}
+.header{
+    margin-top: 7em;
+    margin-right: 5em;
+ } 
+.container{
+    max-width: 1000px;
+    padding: 0 10em;
+}
+.form-header{
+    background-color: 
+    hsl(248, 32%, 49%);
+    padding: 1em;
+    box-shadow: 1px 1px hsl(249, 10%, 26%) ;
+    border-radius: 5px;
+    margin-bottom: 0.8em;
+        text-align: center;
+}
+span{
+    color: hsl(246, 25%, 77%);;
+}
+.myform{
+    background-color: #fff;
+    padding: 2em ;
+    border-radius: 10px;
+    padding-right:4em;
+}
+input,button{
+    
+    width: 90%;
+    padding:1em 1.5em;
+    margin: 1em;
+    border-radius: 10px;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+button{    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+  padding-right: 2em;
+  width: 100%;
+}
+.form-footer{
+    margin-top: 1em;
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    text-align: center;
+}
+.form-footer a{
+    color: hsl(0, 100%, 74%) ;
+    text-decoration: none;
+    
+}
+@media screen and (max-width:740px){
+  
+ .container{
+     max-width: 500px;
+     margin: 0 auto;
+     padding: 0;
+ }
+    #main-section{
+        display: grid;
+      grid-template-columns: auto;
+      margin: 5em 2em;
+    
+    }
+    .header{
+        margin:0;
+        margin-bottom: 1em;
+        padding: 1em;
+    }
+    h1{
+        
+      font-size: 1.3em;
+      padding-right: 2em;
+    }
+
+.form-footer{
+    text-align: center;
+}
+}
